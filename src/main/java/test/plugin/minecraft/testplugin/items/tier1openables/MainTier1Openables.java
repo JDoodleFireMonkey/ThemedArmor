@@ -29,7 +29,7 @@ public class MainTier1Openables {
         meta.setDisplayName("§6§lFarming Loot Crate");
         List<String> lore = new ArrayList<>();
         lore.add(ChatColor.GREEN+"Contains some random farming based loot");
-        lore.add(ChatColor.GREEN+"Contains some random nether themed loot");
+        lore.add(ChatColor.GREEN+"Right Click To Open");
         meta.setLore(lore);
         item.setItemMeta(meta);
         FarmingLootBox1 = item;
@@ -41,7 +41,7 @@ public class MainTier1Openables {
         meta.setDisplayName("§8§lMining Loot Crate");
         List<String> lore = new ArrayList<>();
         lore.add(ChatColor.GREEN+"Contains some random Mining based loot");
-        lore.add(ChatColor.GREEN+"Contains some random nether themed loot");
+        lore.add(ChatColor.GREEN+"Right Click To Open");
         meta.setLore(lore);
         item.setItemMeta(meta);
         MiningLootBox1 = item;
@@ -53,7 +53,7 @@ public class MainTier1Openables {
         meta.setDisplayName("§b§lFishing Loot Crate");
         List<String> lore = new ArrayList<>();
         lore.add(ChatColor.GREEN+"Contains some random Fishing based loot");
-        lore.add(ChatColor.GREEN+"Contains some random nether themed loot");
+        lore.add(ChatColor.GREEN+"Right Click To Open");
         meta.setLore(lore);
         item.setItemMeta(meta);
         FishingLootBox1 = item;
@@ -65,7 +65,7 @@ public class MainTier1Openables {
         meta.setDisplayName("§2§lWoodcutting Loot Crate");
         List<String> lore = new ArrayList<>();
         lore.add(ChatColor.GREEN+"Contains some random Woodcutting based loot");
-        lore.add(ChatColor.GREEN+"Contains some random nether themed loot");
+        lore.add(ChatColor.GREEN+"Right Click To Open");
         meta.setLore(lore);
         item.setItemMeta(meta);
         WoodcuttingLootBox1 = item;

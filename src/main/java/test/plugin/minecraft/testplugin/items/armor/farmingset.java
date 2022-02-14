@@ -1,6 +1,7 @@
 package test.plugin.minecraft.testplugin.items.armor;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -30,8 +31,8 @@ public class farmingset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§a Farmers Hat");
         List<String> lore = new ArrayList<>();
-        lore.add("The Hat Of Effecient farmers");
-        lore.add("Can Grant crops When farming with the full set");
+        lore.add(ChatColor.GOLD+"The Hat Of Effecient farmers");
+        lore.add(ChatColor.GOLD+"Can Grant crops When farming with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(219, 180, 96));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -46,8 +47,8 @@ public class farmingset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§a Farmers Tunic");
         List<String> lore = new ArrayList<>();
-        lore.add("The tunic the best of farmers use");
-        lore.add("Can Grant extra crops When Farming with the full set");
+        lore.add(ChatColor.GOLD+"The tunic the best of farmers use");
+        lore.add(ChatColor.GOLD+"Can Grant extra crops When Farming with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(219, 180, 96));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -62,8 +63,8 @@ public class farmingset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§a Farmer pants");
         List<String> lore = new ArrayList<>();
-        lore.add("The Pants of a trusted farmer");
-        lore.add("Can Grant crops When Farming with the full set");
+        lore.add(ChatColor.GOLD+"The Pants of a trusted farmer");
+        lore.add(ChatColor.GOLD+"Can Grant crops When Farming with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(219, 180, 96));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -78,8 +79,8 @@ public class farmingset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§a Farmer Boots");
         List<String> lore = new ArrayList<>();
-        lore.add("The Boots Worn by a Great farmer");
-        lore.add("Can Grant crops When Farming with the full set");
+        lore.add(ChatColor.GOLD+"The Boots Worn by a Great farmer");
+        lore.add(ChatColor.GOLD+"Can Grant crops When Farming with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(219, 180, 96));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);

@@ -35,8 +35,8 @@ public class fishingset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§4 Fishing Helmet");
         List<String> lore = new ArrayList<>();
-        lore.add("A Helmet made by a great fisherman");
-        lore.add("Can Grant fish Ores When fishing with the full set");
+        lore.add(ChatColor.AQUA+"A Helmet made by a great fisherman");
+        lore.add(ChatColor.AQUA+"Can Grant fish Ores When fishing with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(79, 70, 212));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);

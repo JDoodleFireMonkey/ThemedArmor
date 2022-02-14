@@ -1,6 +1,7 @@
 package test.plugin.minecraft.testplugin.items.armor;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -30,8 +31,8 @@ public class demoset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§4 Demolitionist Helmet");
         List<String> lore = new ArrayList<>();
-        lore.add("A Helmet made for Destruction");
-        lore.add("Can Grant Extra Ores When Mining with the full set");
+        lore.add(ChatColor.DARK_RED+"A Helmet made for Destruction");
+        lore.add(ChatColor.DARK_RED+"Can Grant Extra Ores When Mining with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(222, 162, 60));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -47,8 +48,8 @@ public class demoset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§4 Demolitionist Chestplate");
         List<String> lore = new ArrayList<>();
-        lore.add("A Chestplate made for Destruction");
-        lore.add("Can Grant Extra Ores When Mining with the full set");
+        lore.add(ChatColor.DARK_RED+"A Chestplate made for Destruction");
+        lore.add(ChatColor.DARK_RED+"Can Grant Extra Ores When Mining with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(156, 69, 11));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -63,8 +64,8 @@ public class demoset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§4 Demolitionist Leggings");
         List<String> lore = new ArrayList<>();
-        lore.add("Leggings made for Destruction");
-        lore.add("Can Grant Extra Ores When Mining with the full set");
+        lore.add(ChatColor.DARK_RED+"Leggings made for Destruction");
+        lore.add(ChatColor.DARK_RED+"Can Grant Extra Ores When Mining with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(156, 69, 11));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);
@@ -80,8 +81,8 @@ public class demoset {
         LeatherArmorMeta leatherArmorMeta = (LeatherArmorMeta) meta;
         leatherArmorMeta.setDisplayName("§4 Demolitionist Boots");
         List<String> lore = new ArrayList<>();
-        lore.add("Boots made for Destruction");
-        lore.add("Can Grant Extra Ores When Mining with the full set");
+        lore.add(ChatColor.DARK_RED+"Boots made for Destruction");
+        lore.add(ChatColor.DARK_RED+"Can Grant Extra Ores When Mining with the full set");
         leatherArmorMeta.setLore(lore);
         leatherArmorMeta.setColor(Color.fromRGB(1, 2, 3));
         leatherArmorMeta.addEnchant(Enchantment.DURABILITY, 10, false);

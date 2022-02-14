@@ -1,6 +1,6 @@
 name: ThemedArmor
 version: '${project.version}'
-main: test.plugin.minecraft.testplugin.Testplugin
+main: test.plugin.minecraft.testplugin.ThemedArmor
 api-version: 1.18
 authors: [ J_Doodle ]
 commands:
