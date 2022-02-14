@@ -1,0 +1,21 @@
+name: ThemedArmor
+version: '${project.version}'
+main: test.plugin.minecraft.testplugin.Testplugin
+api-version: 1.18
+authors: [ J_Doodle ]
+commands:
+  givewand:
+    description: Gives The Wand to the player
+    usage: /<command>
+  gui:
+    description: Opens a GUI
+    usage: /<command>
+  givefishingset:
+    description: gives the fishing set
+    usage: /<command>
+  giveDemolitionistset:
+      description: gives the demo set
+      usage: /<command>
+  givefarmingset:
+    description: gives farmings set
+    usage: /<command>
