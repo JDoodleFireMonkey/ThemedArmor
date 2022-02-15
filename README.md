@@ -1,5 +1,5 @@
 # ThemedArmor
-A Small Plugin For Themed armor and openables
+A Small Plugin For Themed armor and openables, built for Minecraft 1.18.1 on spigot
 
 
 
