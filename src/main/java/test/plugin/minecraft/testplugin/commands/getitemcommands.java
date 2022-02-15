@@ -24,6 +24,7 @@ public class getitemcommands implements CommandExecutor {
             player.getInventory().addItem(MainTier1Openables.FishingLootBox1);
             player.getInventory().addItem(MainTier1Openables.WoodcuttingLootBox1);
             player.getInventory().addItem(MainT2O.NetherLootBox1);
+            player.getInventory().addItem(MainT2O.CombatLootBox1);
 
         }
 

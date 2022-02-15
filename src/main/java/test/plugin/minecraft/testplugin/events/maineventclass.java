@@ -396,12 +396,13 @@ public class maineventclass implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getItem() != null) {
                 if (event.getItem().getItemMeta().equals(MainTier1Openables.FarmingLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
                     Player player = event.getPlayer();
-                    ItemStack returnvalue = mainlist.getSingleReturnFarmLootBoxList1(1);
+                    ItemStack returnvalue = mainlist.getSingleReturnFarmLootBoxList1();
                     ItemStack item = returnvalue;
-                    ItemStack returnvalue2 = mainlist.getSingleReturnFarmLootBoxList1(1);
+                    ItemStack returnvalue2 = mainlist.getSingleReturnFarmLootBoxList1();
                     ItemStack item2 = returnvalue2;
-                    ItemStack returnvalue3 = mainlist.getSingleReturnFarmLootBoxList1(1);
+                    ItemStack returnvalue3 = mainlist.getSingleReturnFarmLootBoxList1();
                     ItemStack item3 = returnvalue3;
                     if (returnvalue != null) {
                         ItemStack lootbox = new ItemStack(MainTier1Openables.FarmingLootBox1);
@@ -422,12 +423,13 @@ public class maineventclass implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getItem() != null) {
                 if (event.getItem().getItemMeta().equals(MainTier1Openables.MiningLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
                     Player player = event.getPlayer();
-                    ItemStack returnvalue1 = mainlist.getSingleReturnMiningLootBoxList1(1);
+                    ItemStack returnvalue1 = mainlist.getSingleReturnMiningLootBoxList1();
                     ItemStack item1 = returnvalue1;
-                    ItemStack returnvalue2 = mainlist.getSingleReturnMiningLootBoxList1(1);
+                    ItemStack returnvalue2 = mainlist.getSingleReturnMiningLootBoxList1();
                     ItemStack item2 = returnvalue2;
-                    ItemStack returnvalue3 = mainlist.getSingleReturnMiningLootBoxList1(1);
+                    ItemStack returnvalue3 = mainlist.getSingleReturnMiningLootBoxList1();
                     ItemStack item3 = returnvalue3;
                     if (returnvalue1 != null) {
                         ItemStack lootbox = new ItemStack(MainTier1Openables.MiningLootBox1);
@@ -448,12 +450,13 @@ public class maineventclass implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getItem() != null) {
                 if (event.getItem().getItemMeta().equals(MainTier1Openables.FishingLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
                     Player player = event.getPlayer();
-                    ItemStack returnvalue1 = mainlist.getSingleReturnFishingLootBoxList1(1);
+                    ItemStack returnvalue1 = mainlist.getSingleReturnFishingLootBoxList1();
                     ItemStack item1 = returnvalue1;
-                    ItemStack returnvalue2 = mainlist.getSingleReturnFishingLootBoxList1(1);
+                    ItemStack returnvalue2 = mainlist.getSingleReturnFishingLootBoxList1();
                     ItemStack item2 = returnvalue2;
-                    ItemStack returnvalue3 = mainlist.getSingleReturnFishingLootBoxList1(1);
+                    ItemStack returnvalue3 = mainlist.getSingleReturnFishingLootBoxList1();
                     ItemStack item3 = returnvalue3;
                     if (returnvalue1 != null) {
                         ItemStack lootbox = new ItemStack(MainTier1Openables.FishingLootBox1);
@@ -474,12 +477,13 @@ public class maineventclass implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getItem() != null) {
                 if (event.getItem().getItemMeta().equals(MainTier1Openables.WoodcuttingLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
                     Player player = event.getPlayer();
-                    ItemStack returnvalue1 = mainlist.getSingleReturnWoodcuttingLootBoxList1(1);
+                    ItemStack returnvalue1 = mainlist.getSingleReturnWoodcuttingLootBoxList1();
                     ItemStack item1 = returnvalue1;
-                    ItemStack returnvalue2 = mainlist.getSingleReturnWoodcuttingLootBoxList1(1);
+                    ItemStack returnvalue2 = mainlist.getSingleReturnWoodcuttingLootBoxList1();
                     ItemStack item2 = returnvalue2;
-                    ItemStack returnvalue3 = mainlist.getSingleReturnWoodcuttingLootBoxList1(1);
+                    ItemStack returnvalue3 = mainlist.getSingleReturnWoodcuttingLootBoxList1();
                     ItemStack item3 = returnvalue3;
                     if (returnvalue1 != null) {
                         ItemStack lootbox = new ItemStack(MainTier1Openables.WoodcuttingLootBox1);
@@ -500,12 +504,13 @@ public class maineventclass implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             if (event.getItem() != null) {
                 if (event.getItem().getItemMeta().equals(MainT2O.NetherLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
                     Player player = event.getPlayer();
-                    ItemStack returnvalue1 = mainlist.getSingleReturnNetherLootBoxList1(1);
+                    ItemStack returnvalue1 = mainlist.getSingleReturnNetherLootBoxList1();
                     ItemStack item1 = returnvalue1;
-                    ItemStack returnvalue2 = mainlist.getSingleReturnNetherLootBoxList1(1);
+                    ItemStack returnvalue2 = mainlist.getSingleReturnNetherLootBoxList1();
                     ItemStack item2 = returnvalue2;
-                    ItemStack returnvalue3 = mainlist.getSingleReturnNetherLootBoxList1(1);
+                    ItemStack returnvalue3 = mainlist.getSingleReturnNetherLootBoxList1();
                     ItemStack item3 = returnvalue3;
                     if (returnvalue1 != null) {
                         ItemStack lootbox = new ItemStack(MainT2O.NetherLootBox1);
@@ -513,6 +518,57 @@ public class maineventclass implements Listener {
                         event.getPlayer().getInventory().addItem(item2);
                         event.getPlayer().getInventory().addItem(item3);
                         event.getPlayer().getInventory().removeItem(lootbox);
+                        player.getInventory().addItem();
+                    }
+
+                }
+            }
+        }
+    }
+
+    @EventHandler
+    public static void onRightClickWithEndLootBox1(PlayerInteractEvent event) {
+        if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
+            if (event.getItem() != null) {
+                if (event.getItem().getItemMeta().equals(MainT2O.EndLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
+                    Player player = event.getPlayer();
+                    ItemStack returnvalue1 = mainlist.getSingleReturnEndLootBoxList1();
+                    ItemStack item1 = returnvalue1;
+                    ItemStack returnvalue2 = mainlist.getSingleReturnEndLootBoxList1();
+                    ItemStack item2 = returnvalue2;
+                    ItemStack returnvalue3 = mainlist.getSingleReturnEndLootBoxList1();
+                    ItemStack item3 = returnvalue3;
+                    if (returnvalue1 != null) {
+                        ItemStack lootbox = new ItemStack(MainT2O.EndLootBox1);
+                        event.getPlayer().getInventory().addItem(item1);
+                        event.getPlayer().getInventory().addItem(item2);
+                        event.getPlayer().getInventory().addItem(item3);
+                        event.getPlayer().getInventory().removeItem(lootbox);
+                        player.getInventory().addItem();
+                    }
+
+                }
+            }
+        }
+    }
+
+    @EventHandler
+    public static void onRightClickWithCombatLootBox1(PlayerInteractEvent event) {
+        if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
+            if (event.getItem() != null) {
+                if (event.getItem().getItemMeta().equals(MainT2O.CombatLootBox1.getItemMeta())) {
+                    event.setCancelled(true);
+                    Player player = event.getPlayer();
+                    ItemStack returnvalue1 = mainlist.getSingleReturnCombatLootBoxList1();
+                    ItemStack returnvalue2 = mainlist.getSingleReturnCombatLootBoxList1();
+                    ItemStack returnvalue3 = mainlist.getSingleReturnCombatLootBoxList1();
+                    if (returnvalue1 != null) {
+                        ItemStack LootBox = MainT2O.CombatLootBox1;
+                        event.getPlayer().getInventory().addItem(returnvalue1);
+                        event.getPlayer().getInventory().addItem(returnvalue2);
+                        event.getPlayer().getInventory().addItem(returnvalue3);
+                        event.getPlayer().getInventory().removeItem(LootBox);
                         player.getInventory().addItem();
                     }
 
